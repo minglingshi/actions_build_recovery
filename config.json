@@ -1,16 +1,16 @@
 {
-  "twrp_url": "https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni",
-  "twrp_branch": "twrp-9.0",
-  "git_username": "Pinkdoge",
+  "twrp_url": "https://github.com/omnirom/android",
+  "twrp_branch": "android-13.0",
+  "git_username": "minglingshi",
   "git_email": "42758990+Pinkdoge@users.noreply.github.com",
   "use_own_dt": true,
-  "dt_url": "pinkdoge/twrp_device_huawei_kiwi",
-  "dt_branch": "android-9.0",
+  "dt_url": "qiurigao/android_device_realme_RMX2202_TWRP",
+  "dt_branch": "twrp-11",
   "dt_remote": "github",
-  "dt_path": "device/huawei/kiwi",
-  "device_code": "kiwi",
+  "dt_path": "device/realme/RMX2202",
+  "device_code": "RMX2202L1",
   "fix_product": true,
   "fix_misscom": true,
   "fix_busybox": false,
-  "fix_branch": "android-9.0"
+  "fix_branch": "android-13.0"
 }
