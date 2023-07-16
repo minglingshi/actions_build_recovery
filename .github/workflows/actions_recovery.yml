@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     if: github.event.repository.owner.id == github.event.sender.id
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-lastest
     
     steps:
     - name: Checkout
@@ -91,6 +91,7 @@ jobs:
       run: |
         PATH=~/bin:$PATH
         cd workspace
+        git pull
         repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
         ls -al
         
