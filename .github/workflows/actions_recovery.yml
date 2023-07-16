@@ -92,6 +92,7 @@ jobs:
         PATH=~/bin:$PATH
         cd workspace
         git pull
+        cp /home/runner/work/actions_build_recovery/actions_build_recovery/workspace/.repo/repo/repo /home/runner/bin/repo
         repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
         ls -al
         
